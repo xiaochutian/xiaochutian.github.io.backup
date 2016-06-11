@@ -8,6 +8,8 @@ keyword: "肖楚天, K.I.S.S., K.I.S.S. Blog, 肖楚天的博客, xiaochutian, �
 url: "http://xiaochutian.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
+# fix the time bug http://mark24code.github.io/%E9%9A%8F%E7%AC%94/2016/02/19/FixTimezone.html
+timezone: Asia/Shanghai
 
 
 # SNS settings

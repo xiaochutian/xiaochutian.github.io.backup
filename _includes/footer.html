@@ -103,8 +103,14 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
 
+<!-- add by K.I.S.S. scrollUp -->
+<script src="{{ "/js/jquery.scrollUp.min.js " | prepend: site.baseurl }}"></script>
+
 <!-- add by K.I.S.S. for more feature -->
 <script src="{{ "/js/kiss-blog.js " | prepend: site.baseurl }}"></script>
+
+
+
 
 
 <!-- async load function -->
@@ -118,6 +124,23 @@
       s.parentNode.insertBefore(o, s);
     }
 </script>
+
+
+<!-- ScrollUp.js assemble to kiss-blog.js-->
+<!-- <script>
+async("/js/jquery.scrollUp.min.js", function(){
+    $.scrollUp({
+        scrollName: 'scrollUp', // Element ID
+        topDistance: '300', // Distance from top before showing element (px)
+        topSpeed: 300, // Speed back to top (ms)
+        animation: 'fade', // Fade, slide, none
+        animationInSpeed: 200, // Animation in speed (ms)
+        animationOutSpeed: 200, // Animation out speed (ms)
+        scrollText: '返回顶部', // Text for element
+        activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    });
+})
+</script> -->
 
 <!--
      Because of the native support for backtick-style fenced code blocks

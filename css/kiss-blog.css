@@ -1,0 +1,32 @@
+/*#scrollUp {
+    background-image: url("../img/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;
+    height: 38px;
+}*/
+
+/* Pill style */
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    opacity: .9;
+    padding: 10px 20px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-transition: background 200ms linear;
+    -moz-transition: background 200ms linear;
+    -o-transition: background 200ms linear;
+    transition: background 200ms linear;
+    -webkit-backface-visibility: hidden;
+}
+
+#scrollUp:hover {
+    background-color: #000;
+}

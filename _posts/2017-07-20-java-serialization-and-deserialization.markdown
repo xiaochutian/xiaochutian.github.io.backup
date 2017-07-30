@@ -137,6 +137,7 @@ Ctrl + Alt + s，搜索inspection serializable。
 
 [【Oracle Doc】Serializable官方文档](http://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html)  
 [【GitHub】serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)  
+[【ImportNew】关于 Java 对象序列化您不知道的 5 件事](http://www.importnew.com/16151.html)
 [【ImportNew】在Java中如何使用transient](http://www.importnew.com/12611.html)    
 [【ImportNew】Java transient关键字使用小记](http://www.importnew.com/21517.html)    
 [【StackOverflow】What is the difference between Serializable and Externalizable in Java?](https://stackoverflow.com/questions/817853/what-is-the-difference-between-serializable-and-externalizable-in-java)    

@@ -20,7 +20,7 @@ tags:
 $是字符串拼接，#是占位符。
 当，tableName的时候，必须使用$
 
-```sql
+```
 @Select("SELECT COUNT(*) FROM ${tableName} WHERE user_id=#{userId}")
 ```
 

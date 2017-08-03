@@ -17,7 +17,7 @@ tags:
 
 ## 1 概述
 
-#### 1.1 第一版『服务器与客户端的状态码』设计[【详见】](/2017/08/01/design-of-server-status-code-Ⅰ/#myDesign){:target="_blank"}    
+#### 1.1 第一版『服务器与客户端的状态码』设计[【详见】](/2017/08/01/design-of-server-status-code-1/#myDesign){:target="_blank"}    
 
 > HTTP状态码统一为200。Result对象里面的code为0表示正常返回，非0表示异常返回。    
 > 异常详情如下：

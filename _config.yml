@@ -17,7 +17,7 @@ RSS: false
 # weibo_username:     xiaochutian
 zhihu_username:     kiss-19-23
 github_username:    xiaochutian
-#twitter_username:  xiaochutian
+# twitter_username:  xiaochutian
 # facebook_username:  xiaochutian
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -91,6 +91,6 @@ friends: [
         href: "http://wenzhiquan.github.io/"
     },{
         title: "遵达",
-        href: "http://saberzun.github.io//"
+        href: "http://saberzun.github.io/zunda/"
     }
 ]

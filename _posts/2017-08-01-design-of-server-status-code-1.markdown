@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "服务器状态码设计"
+title:      "服务器状态码设计（一）"
 subtitle:   ""
 # date:       2016-06-20 10:23:36
 author:     "K.I.S.S."
@@ -121,11 +121,11 @@ public class Result<T> implements Serializable {
 }
 ```
 
-## 3 我的设计
+## 3 我的设计 {#myDesign}
 
 **自定义错误代码，HTTP状态码统一为200。**
 
-#### 3.1 我的思考
+#### 3.1 我的思考 {#noHttpStatusCode}
 
 为什么我不复用HTTP状态码？
 1. HTTP状态码可能不够用。跟项目业务相关的错误细节无法反应出来。

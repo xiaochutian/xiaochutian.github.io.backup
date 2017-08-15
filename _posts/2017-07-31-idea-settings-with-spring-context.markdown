@@ -9,6 +9,7 @@ catalog:    true
 tags:
     - IDEA
     - Spring
+    - applicationContext
 ---
 
 ## 0 一篇一句

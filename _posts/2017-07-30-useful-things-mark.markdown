@@ -26,6 +26,28 @@ $是字符串拼接，#是占位符。
 
 [【Spring ApplicationContext配置文件的加载过程】]（http://www.javacoder.cn/?p=337）
 
+jenkins
+
+dubbo
+
+跳板机
+
+配置多个机器的ssh免密
+
+shell脚本
+
+常用linux指令
+
+压力测试 jmeter
+
+jsBridge进行 前端和客户端的交互
+
+回归测试框架
+
+maven-shade-plugin
+
+shutdownhook来关闭dubbo
+
 ## 5 参考
 
 【维基百科】IEEE754标准。[英文](https://en.wikipedia.org/wiki/IEEE_floating_point)，[中文](https://zh.wikipedia.org/wiki/IEEE_754)    

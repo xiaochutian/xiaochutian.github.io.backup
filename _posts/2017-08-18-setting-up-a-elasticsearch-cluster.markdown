@@ -254,7 +254,8 @@ bin/plugin install mobz/elasticsearch-head
 
 Kibana地址：[http://10.3.122.36:5601/app/kibana](http://10.3.122.36:5601/app/kibana)    
 Sense地址：[http://10.3.122.36:5601/app/sense](http://10.3.122.36:5601/app/sense)    
-ES集群监控：[http://10.3.122.36:9200/_plugin/head/](http://10.3.122.36:9200/_plugin/head/)    
+ES集群监控插件head（控制台）：[http://10.3.122.36:9200/_plugin/head/](http://10.3.122.36:9200/_plugin/head/)    
+ES集群监控插件bigdesk（控制台）：[http://10.3.122.36:9200/_plugin/bigdesk/](http://10.3.122.36:9200/_plugin/bigdesk/)    
 ES集群状态JSON：[http://10.3.122.36:9200/_cluster/stats](http://10.3.122.36:9200/_cluster/stats)    
 ES集群健康状态JSON：[http://10.3.122.36:9200/_cluster/health?pretty](http://10.3.122.36:9200/_cluster/health?pretty)    
 ES节点状态JSON：[http://10.3.122.36:9200/_nodes/process?pretty](http://10.3.122.36:9200/_nodes/process?pretty)    

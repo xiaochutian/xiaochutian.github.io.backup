@@ -243,11 +243,11 @@ bin/plugin install mobz/elasticsearch-head
 
 #### 2.7 安装es的bigdesk插件
 
-详见[【Elasticsearch插件Bigdesk安装】](/2017/08/18/setting-up-elasticsearch-plugin-bigdesk/){:target="_blank_"}
+详见[【Elasticsearch插件Bigdesk安装】](/2017/08/18/setting-up-elasticsearch-plugin-bigdesk/){:target="blank"}
 
 #### 2.8 安装es的servicewrapper插件
 
-详见[【Elasticsearch插件servicewrapper安装】](/2017/08/18/setting-up-elasticsearch-plugin-servicewrapper/){:target="_blank_"}
+详见[【Elasticsearch插件servicewrapper安装】](/2017/08/18/setting-up-elasticsearch-plugin-servicewrapper/){:target="blank"}
 
 
 ## 3 状态查看

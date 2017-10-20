@@ -96,7 +96,11 @@ long hash = ((sha[0] >>> 24) & 0xFF) |
 2. `<cinit>` VS `<init>`
 3. 类名不同，但是serialVersionUID相同的两个类进行序列化和反序列化，会出现什么结果？
 
-## 5 参考
+## 5 总结
+
+千言万语汇成一句话：**所有可序列化的类都明确声明serialVersionUID值**
+
+## 6 参考
 
 [【MyBlog】Java序列化和反序列化](/2017/07/20/java-serialization-and-deserialization/){:target="blank"}    
 [【Oracle】Java Object Serialization Specification - All][1]    

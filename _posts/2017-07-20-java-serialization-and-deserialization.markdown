@@ -32,7 +32,7 @@ tags:
 - 第一版的推荐服务器，没有做反馈统计，所以History中只记录了视频的ID，并没有记录视频是使用哪种算法推荐出来的。    
 - 新版的推荐服务器，需要在 **History中加入一个新的字段bucket** ，来记录该视频是由哪种算法推荐出来。
 
-## 2 serialVersionUID
+## 2 serialVersionUID {#serialVersionUID}
 
 #### 2.1 serialVersionUID的作用
 
@@ -69,7 +69,7 @@ serialVersionUID 就是 **控制版本是否兼容** 的，若我们认为修改
 ```
 ANY-ACCESS-MODIFIER static final long serialVersionUID = 1L;
 ```
-- 当显式定义 serialVersionUID 的值时，Java 根据类的多个方面(具体可参考 Java 序列化规范)动态生成一个默认的 serialVersionUID 。
+- 当没有显式定义 serialVersionUID 的值时，Java 根据类的多个方面(具体可参考 Java 序列化规范)动态生成一个默认的 serialVersionUID [【详见《Java序列化运行时计算serialVersionUID的方式》】](/2017/10/19/how-does-java-serialization-runtime-calculate-serialVersionUID/){:target="blank"}。
 - 尽管这样，还是建议你在每一个序列化的类中显式指定 serialVersionUID 的值，因为不同的 jdk 编译很可能会生成不同的 serialVersionUID 默认值，进而导致在反序列化时抛出 InvalidClassExceptions 异常。
 - 所以，为了保证在不同的 jdk 编译实现中，其 serialVersionUID 的值也一致，可序列化的类 **必须显式指定** serialVersionUID 的值。
 - 另外，serialVersionUID 的修饰符最好是 private，因为 serialVersionUID 不能被继承，所以建议使用 private 修饰 serialVersionUID。
@@ -137,7 +137,8 @@ Ctrl + Alt + s，搜索inspection serializable。
 
 [【Oracle Doc】Serializable官方文档](http://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html)  
 [【GitHub】serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)  
-[【ImportNew】关于 Java 对象序列化您不知道的 5 件事](http://www.importnew.com/16151.html)
+[【MyBlog】Java序列化运行时计算serialVersionUID的方式](/2017/10/19/how-does-java-serialization-runtime-calculate-serialVersionUID/){:target="blank"}    
+[【ImportNew】关于 Java 对象序列化您不知道的 5 件事](http://www.importnew.com/16151.html)    
 [【ImportNew】在Java中如何使用transient](http://www.importnew.com/12611.html)    
 [【ImportNew】Java transient关键字使用小记](http://www.importnew.com/21517.html)    
 [【StackOverflow】What is the difference between Serializable and Externalizable in Java?](https://stackoverflow.com/questions/817853/what-is-the-difference-between-serializable-and-externalizable-in-java)    

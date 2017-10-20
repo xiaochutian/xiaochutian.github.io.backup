@@ -26,7 +26,7 @@ tags:
 #### 1.2 基础知识
 
 - Dubbo服务依赖于Spring，要调用Dubbo的服务，需要加载 **Spring的上下文** 。    
-(详见：[加载Spring上下文的多种方式](/2017/08/14/ways-to-load-spring-context/){:target="_blank_"})
+(详见：[加载Spring上下文的多种方式](/2017/08/13/ways-to-load-spring-context/){:target="blank"})
 - Spark的任务使用 [spark-submit](https://taoistwar.gitbooks.io/spark-operationand-maintenance-management/content/spark_install/spark_submmit.html) 指令来提交
 
 #### 1.3 步骤

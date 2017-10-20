@@ -17,7 +17,7 @@ tags:
 
 ## 1 概述
 
-#### 1.1 第一版『服务器与客户端的状态码』设计[【详见】](/2017/08/01/design-of-server-status-code-1/#myDesign){:target="_blank"}    
+#### 1.1 第一版『服务器与客户端的状态码』设计[【详见】](/2017/08/01/design-of-server-status-code-1/#myDesign){:target="blank"}    
 
 > HTTP状态码统一为200。Result对象里面的code为0表示正常返回，非0表示异常返回。    
 > 异常详情如下：
@@ -55,7 +55,7 @@ ErrorCode应该属于通信协议的一部分。
 #### 2.2 第二版设计的说明
 
 ###### 2.2.1 未改变部分
-1. 不复用HTTP状态码。原因不变，[详见](/2017/08/01/design-of-server-status-code-1/#noHttpStatusCode){:target="_blank"}
+1. 不复用HTTP状态码。原因不变，[详见](/2017/08/01/design-of-server-status-code-1/#noHttpStatusCode){:target="blank"}
 2. 4XXXX表示客户端错误
 3. 5XXXX表示由服务器bug引起的异常。注意，这里不应该透露给客户端报错的细节。
 
